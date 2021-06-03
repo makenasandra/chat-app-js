@@ -1,0 +1,22 @@
+body{
+	background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+	font-family: 'Grandstander', cursive;
+	margin: 0;
+}
+
+.jumbotron{
+    background-color: rgb(0, 0, 0);
+    border-radius: 2.5%;
+    padding: 10%;
+    width: 100%;
+}
+
+#send{
+    font-size: 20px;
+    
+    
+}
+
+.display-4{
+    color: rgb(138, 3, 3);
+}
