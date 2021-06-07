@@ -4,7 +4,7 @@
   "description": "This is demo chat application made using node js. It features use http requests, websockets(Web Sockets IO), MongoDB and mlab for data persistence",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine                  ",
     "start": "node server.js"
   },
   "repository": {
@@ -24,5 +24,9 @@
     "mongoose": "^5.12.13",
     "nodemon": "^2.0.7",
     "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.7.0",
+    "request": "^2.88.2"
   }
 }
